@@ -11,7 +11,7 @@ Projects tasks:
 - Create the DQN Agent
 - Choosing velocity or position-based control of arm joints
 - Creating reward function:
- Reward for robot gripper hitting the ground
- Issue an interim reward based on the distance to the object
- Issue a reward based on collision between the arm and the object
+    1- Reward for robot gripper hitting the ground
+    2-Issue an interim reward based on the distance to the object
+    3-Issue a reward based on collision between the arm and the object
 - Tuning the hyperparameters
